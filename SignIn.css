@@ -1,0 +1,191 @@
+#bd {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#st {
+    background-image: url("./image/rand/Cover_copy.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#parameters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#parameters label {
+    width: 35%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #dee2e6;
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+    background-color: white;
+}
+
+#parameters input {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#parameters p {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+#btn {
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: black;
+    border-radius: 0.375rem;
+    color: whitesmoke;
+    margin-top: 0.5rem;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#art {
+    display: flex;
+    background-color: white;
+    background-image: url("./image/rand/sfondo.png");
+    background-size: cover;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 0.5rem;
+}
+
+#art h1 {
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#art input:focus,
+.btn:hover {
+    color: #212529;
+    background-color: #fff;
+    border-color: #dee2e6;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(72, 56, 249, 0.25);
+}
+
+.error, .error-form{
+    width: 90%;
+    text-align: start;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.error-text {
+    color: red;
+    text-decoration: underline;
+    font-size: smaller;
+}
+
+.box {
+    width: 90%;
+}
+
+.hidden {
+    display: none;
+}
+
+.valid-text {
+    color: green;
+    text-decoration: underline;
+    font-size: smaller;
+}
+
+.animated {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.animated>*:hover {
+    display: inline-block;
+    position: relative;
+    animation: 3s linear 0s infinite alternate move;
+}
+
+
+@keyframes move {
+
+    0%,
+    25% {
+        transform: translateX(0%);
+        left: 0%;
+    }
+
+    75%,
+    100% {
+        transform: translateX(-100%);
+        left: 100%;
+    }
+}
+
+.title_box{
+    display: flex;
+    justify-content: center;
+}
+
+.exit{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+}
+.poke_box{
+    padding-top: 24px;
+}
+
+.pokeball{
+    width: 20px;
+    height: 20px;
+    animation:3s linear 0s infinite poke_rotation;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes poke_rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

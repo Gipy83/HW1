@@ -1,0 +1,97 @@
+#bod{
+    font-size: large;
+    margin: 0px;
+    background-color: #fdd8fd;
+}
+
+
+#st{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    width: 44.5%;
+    margin: auto;
+}
+
+.dv-1{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    border-radius: 1rem;
+    border: 2px solid #e6e33c;
+    background-color:#C4C233;
+}
+
+.enumerazione{
+    display:block;
+    margin-right: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+div.text div{
+    margin-bottom: 20px;
+}
+
+.foot{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+div span{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+div h1{
+    margin-top: 0;
+    font-size: 30px;
+    margin-block-end: 0px;
+}
+
+#menu{
+    display: none;
+}
+
+#art{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(0deg, #c22bc4 0%, #fc54ff 100%);
+    width: 90%;
+    border: 2px solid darkviolet;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.im{
+    width: 50px;
+}
+
+

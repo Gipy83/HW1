@@ -1,0 +1,190 @@
+#sc{
+    background-image: url("./image/rand/box_pokemon.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 1080px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.moves-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.card{
+    background-image: url("./image/rand/sfondo.png");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    min-height: 50%;
+    border-radius: 0.375rem;
+    border: 10px solid rgb(246, 191, 52);
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+}
+
+.card-section-left{
+    width: 40%;
+}
+
+.overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 5px
+}
+
+
+.card-section-right>*{
+    width: 100%;
+}
+
+#right{
+    background-image: url("./image/rand/sfondo_card1.jpg");
+    background-position: center;
+    padding: 0;
+    border-right: 2px solid black;
+}
+
+.modal-img{
+    width: 80%;
+}
+
+#foot{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+}
+
+.img{
+    width: 180px;
+}
+
+.img:hover{
+    cursor: pointer;
+    animation:  1s ease-out infinite move-pokemon;
+}
+
+@keyframes move-pokemon{
+    0%{}
+    25%{transform: translateY(-20px)}
+    35%{transform: translateY(0px)}
+    45%{transform: translateY(-15px)}
+    55%{transform: translateY(0px)}
+    65%{transform: translateY(-10px)}
+    75%{transform: translateY(0px)}
+    75%{transform: translateY(-5px)}
+    100%{}
+}
+
+.overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeball{
+    width: 40px;
+    cursor: pointer;
+    transition: width 0.5s, transform 0.5s;
+}
+
+.pokeball-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.move-element{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.name-pokemon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokeball{
+    width: 40px;
+    cursor: pointer;
+    transition: width 0.5s, transform 0.5s;
+}
+
+.pokeball:hover{
+    width: 50px;
+    transform: rotate(-720deg);
+}
+
+.exit{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.btn{
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: black;
+    border-radius: 0.375rem;
+    color: whitesmoke;
+    margin-top: 0.5rem;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    font-weight: bold;
+}
+
+.moves-span_box{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+

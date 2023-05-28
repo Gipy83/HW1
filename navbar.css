@@ -1,0 +1,209 @@
+#bd{
+    font-size: large;
+    margin: 0px;
+    background-color:#dee2e6;
+}
+
+#btn{
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #000000;
+    border-radius: 0.375rem;
+    background-color: whitesmoke;
+    transition: background-color .15s ease-in-out;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+}
+
+.d-flex{
+    display: flex;
+    margin-left: -200px;
+}
+
+.form-control{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    color: #212529;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    margin-right: 0.5rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.in:focus, .form-control:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color:#86b7fe;
+    outline:0;
+    box-shadow:0 0 0 .25rem rgba(13,110,253,.25);
+}
+
+.hidden{
+    display:none;
+}
+
+.info{
+    display: flex;   
+    margin-right: auto;
+    padding-left: 0;
+    list-style: none;
+}
+
+.info2{
+    display: flex;   
+    padding-left: 0;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    background: linear-gradient(90deg, #c12ac4 0%, hsla(0, 0%, 0%, 1) 100%);
+}
+
+.navbar-brand{
+    cursor: default;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+#navbar-info{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.text span{
+    font-family: 'Alkatra', georgia;
+}
+
+footer span{
+    color:white;
+    font-family: 'Alkatra', georgia;
+}
+
+div h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-link:hover{
+    font-weight: bolder;
+}
+
+
+.login{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.login .nav-link{
+    text-decoration: underline;
+    color:#fff;
+    margin-right: 5px;
+}
+
+.shop{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*----------------------------------------*/
+#poke_box{
+    margin-left: -5px;
+    width:52px;
+    height: 52px;
+}
+
+
+#poke_box img{
+    width:52px;
+    height: 52px;
+}
+
+.svg2{
+    margin-left: 10px;
+    color: white;
+    width: 60px;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 8px;
+    background-color: rgb(103, 0, 147);
+    padding: 0.2rem 0.5rem;
+    padding-bottom:0.4rem;
+    border: 1px solid darkviolet;
+    border-radius: 1rem;
+    color: whitesmoke;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------- */
+
+#foot{
+    margin-top: 150px;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#nav-foot{
+    display: flex;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-col{
+    padding: 0 15px;
+
+}
+
+.footer-col strong{
+    display: flex;
+    color: #919496;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .footer-col p{
+    font-size: 18px;
+    padding: 3px 0 15px;
+    margin: 0;
+  }
+
+#nav-foot p{
+    display: flex;
+    color: white;
+}
+
+.footer-col h2{
+    font-family: cursive;
+    color:white;
+}
+
+#foot a{
+    color: white;
+    text-decoration: none;
+}
+
+

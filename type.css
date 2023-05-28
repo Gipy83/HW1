@@ -1,0 +1,138 @@
+
+.fire{
+    background-color: #f0803f;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.normal{
+    background-color: #A8A878;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.fighting{
+    background-color: #c03028;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.flying{
+    background-color: #A890F0;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.poison{
+    background-color: #A040A0;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.ground{
+    background-color: #E0C068;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.rock{
+    background-color: #B8A038;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.bug{
+    background-color: #A8B820;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.ghost{
+    background-color: #705898;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.steel{
+    background-color: #B8B8D0;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.water{
+    background-color: #6890F0;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.grass{
+    background-color: #78C850;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.electric{
+    background-color: #F8D030;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.psychic{
+    background-color: #F85888;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.ice{
+    background-color: #98D8D8;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.dragon{
+    background-color: #7038F8;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+.dark{
+    background-color: #705848;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+.fairy{
+    background-color: #F0B6BC;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.shadow{
+    background-color: #A890F0;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}
+
+.unknown{
+    background-color: #6AA596;
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+    margin-right: 3px;
+}

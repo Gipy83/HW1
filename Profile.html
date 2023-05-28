@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="profile.css">
+        <script src="./profile.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    </head>
+
+    <body id="bd"> 
+        <section id="sc">
+            
+            <div id="info">
+                <div class="text">
+                    <span>Allenatore: </span>
+                    <span data-name="nome"></span>
+                </div>
+
+                <div class="text">
+                    <span>Username: </span>
+                    <span data-name="username"> </span>
+                </div>
+
+                <div class="text">
+                    <span>N. pokemon catturati:</span>
+                    <span data-name="number"> </span>
+                </div>
+                <div>
+                    <span>Team</span>
+                    <div id="Team-view">
+                    </div>
+                </div>
+            </div>
+
+            <div class="trainer">
+                <img>
+                <button class="btn">Change image</button>
+            </div>
+
+            <div id="btn-box">
+                <a href="home.php"><button class="btn">Salva</button></a>
+                <a href="home.php"><button class="btn">Annulla</button></a>
+            </div>
+        </section>
+
+        <div class="overlay hidden">
+            <article class="art">
+                <img src="./image/trainer/Trainer_M1.png" data-id="Trainer_M1">
+                <img src="./image/trainer/Trainer_F1.png" data-id="Trainer_F1">
+                <img src="./image/trainer/Trainer_M2.png" data-id="Trainer_M2">
+                <img src="./image/trainer/Trainer_F2.png" data-id="Trainer_F2">
+            </article>
+        </div>
+    </body>
+
+
+</html>
